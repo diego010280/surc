@@ -1,0 +1,19 @@
+SELECT SURC_Sumario_NroSumMP as 'NroSumario_MP', SURC_Sumario_Anio as 'Anio', dbseg.ref_dependencias.DepPol_Descrip, DBSEG.ref_unidadreg.UnidadReg_Descrip as 'Unidad_Regional', SURC.surc_tiposum.SURC_TipoSum_Descrip as 'Tipo_Sumario', SURC.surc_origensumario.SURC_OrigenSumario_Descrip as 'Origen_Sumario', SURC.surc_tipogrdelito.SURC_TipoGrDelito_Descrip as'Agrupamiento_Delictivo',surc.surc_sumario.SURC_Sumario_FechaDel as 'Fecha_Delito',surc.surc_sumario.SURC_Sumario_CargaUsuario as 'Usuario', surc.surc_sumario.SURC_Sumario_FechaSum as 'Fecha_Carga', time(surc.surc_sumario.SURC_Sumario_HoraSum) as 'Hora_Carga' FROM surc.surc_sumario
+
+LEFT JOIN dbseg.ref_dependencias ON dbseg.ref_dependencias.DepPol_Codigo= surc.surc_sumario.SURC_Sumario_IdDependencia
+
+LEFT JOIN surc.surc_sectores ON (SURC.surc_sectores.SURC_Sectores_IdCCO=dbseg.ref_dependencias.SURC_Sectores_IdCCO)and(SURC.surc_sectores.SURC_Sectores_Id=dbseg.ref_dependencias.SURC_Sectores_Id)
+
+LEFT JOIN DBSEG.ref_unidadreg ON DBSEG.ref_unidadreg.UnidadReg_Codigo=dbseg.ref_dependencias.UnidadReg_Codigo
+
+LEFT JOIN surc.surc_tiposum ON surc.surc_tiposum.SURC_TipoSum_Id=surc.surc_sumario.SURC_Sumario_IdTipoSumario
+
+LEFT JOIN SURC.surc_origensumario ON SURC.surc_origensumario.SURC_OrigenSumario_Id=SURC.surc_sumario.SURC_Sumario_IdOrigSum
+
+left JOIN SURC.surc_hechodelictivo ON SURC.surc_hechodelictivo.SURC_HechoDelictivo_Id=SURC.surc_sumario.SURC_Sumario_IdHechoDel
+
+LEFT JOIN SURC.surc_tipogrdelito ON SURC.surc_tipogrdelito.SURC_TipoGrDelito_Id = surc.surc_hechodelictivo.SURC_HechoDelictivo_IdTGrDelit
+
+where surc.surc_sumario.SURC_Sumario_NroSumMP like '' and surc.surc_sumario.SURC_Sumario_Anio=2017 and surc.surc_tiposum.SURC_TipoSum_Id=1 and SURC.surc_origensumario.SURC_OrigenSumario_Id=1 and DBSEG.ref_dependencias.SURC_Sectores_IdCCO=1 AND DBSEG.ref_dependencias.SURC_Sectores_Id=1 AND DBSEG.ref_dependencias.DepPol_Codigo=20 and (surc.surc_sumario.SURC_Sumario_FechaDel between '2018-01-12' and '2018-02-01') and (surc.surc_sumario.SURC_Sumario_FechaSum between '2018-01-12' and '2018-02-01') and SURC.surc_tipogrdelito.SURC_TipoGrDelito_Id=1 and surc.surc_hechodelictivo.SURC_HechoDelictivo_Id=1 and surc.surc_modalidad.SURC_Modalidad_Id=1
+
+LIMIT 1, 16;

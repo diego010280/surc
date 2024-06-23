@@ -1,0 +1,120 @@
+#window {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	height: 350px;
+	visibility: hidden;
+	padding: 20px;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 0 0 9px 2px #ABB2B9;
+	font-size: .9em;
+	transform: scale(0.1);
+	transition: transform 200ms
+}
+#window::backdrop {
+	background: rgb(0,0,0,0.4)
+}
+#window.dialog-scale {
+	visibility: visible;
+	transform: scale(1);
+}
+.dialog_tit {
+	padding-bottom: 20px;
+	font-size: 14px;
+	text-align: left
+}
+.dialog_btn {
+	position: absolute;
+	bottom: 15px;
+	right: 15px
+}
+
+.row {
+	display: block;
+	padding: 7px 0px
+}
+.label{
+	display: block;
+	padding: 3px
+}
+.sublabel{
+	display: block;
+	color: #5f6368;
+	padding: 3px
+}
+
+
+/* CHECKBOX */
+.container {
+	position: relative;
+	cursor: pointer;
+	user-select: none
+}
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer
+}
+.checkmark {
+	position: absolute;
+	top: -12px;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	border: 2px solid #999999;
+	border-radius: 3px
+}
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+	background-color: #2196F3;
+	box-shadow: none;
+	border: 0
+}
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none
+}
+.container input:checked ~ .checkmark:after {
+	display: block
+}
+.container .checkmark:after {
+	left: 7px;
+	top: 3px;
+	width: 4px;
+	height: 8px;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg)
+}
+
+
+/**************/
+.container > div {
+	display: inline-block
+}
+.container > div:first-child{
+	width: 30px;
+	height: 30px;
+}
+.pos_dialog_cerrar {
+	position: absolute;
+	bottom: 10px;
+	left: 19px
+}
+.transp {
+	opacity: 0.5
+}
+.color {
+	color: #5f6368;
+}
+
+@media screen and (max-width:768px) {
+	#window {
+		width: 350px
+	}

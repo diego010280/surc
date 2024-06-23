@@ -1,0 +1,164 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table xmlns="Denuncias">
+    <denunciaId>1700396</denunciaId>
+    <tipoDenuncia>1</tipoDenuncia>
+    <tipoDenunciaNombre>Denuncia Penal</tipoDenunciaNombre>
+    <actaNro>1286</actaNro>
+    <Anio>2018</Anio>
+    <dependenciaCargaId>731</dependenciaCargaId>
+    <dependenciaCargaSigla>C045</dependenciaCargaSigla>
+    <dependenciaCargaNombre>COM. Nº45 TARTAGAL</dependenciaCargaNombre>
+    <fchRegistro>2018-11-13T03:12:23.233-03:00</fchRegistro>
+    <fchConfirmacion>2018-11-13T04:56:31.623-03:00</fchConfirmacion>
+    <hrExacta>No</hrExacta>
+    <fchHrHecho>2018-11-10T00:00:00-03:00</fchHrHecho>
+    <hrHechoLibre>A HS. 12:00</hrHechoLibre>
+    <lugarDelHecho>AV. PACKAM Y PERU</lugarDelHecho>
+    <Relato>RADICA LA PRESENTE QUE EN LA FECHA Y HORA DE EPIGRAFE MIENTRAS EL DICENTE SE DIRIGIÓ EN SU METOVEHICULO PARTICULAR JUNTO COMUN AMIGO, FUE QUE AL INGRESAR A LA CASA DE SU AMIGO EN CALLE PERU, DEJANDO SU MOTOVEHICULO EN LA VEREEDA, QUE AL SALIR SE DIO CON LA NOVEDAD QUE PERSONAS DESCONOCIDAS LE SUSTRAJERON SU MOTOVEHICULO, ACLARANDO QUE ESTE SE ENOCTRABA CON TRABA. A PREGUNTAS DE LA INSTRUCCION EXPRESA QUE EL MOTOVEHICULO SE TRATARIA DE UNA YAHAMA 110 CCO DOMINIO A029BSE CUADRO 8C6KE1975G0030218 MOTOR E3L6E279444 COLOR BLANCA CON NEGRO, NO POSEIA EN ESE MOMENTO CALCO DE CRUIOTON, LAS YANTAS PINTADAS DE COLOR GRIS, LA PARRILLA CON LA ETIQUETA DE TRANSFORME, EN LA PARTE DEL GUARDABARROS DE ADELANTE TIENE UNA ETIQUETA "QUITA FONDO" DOS CABALLO, Y EL POSA PIE IZQUIERDO Y EL VELOCÍMETRO SE ENCUENTRA DAÑADO, ASIMISMO EXPRESA QUE NO POSEE  TESTIGOS DE ESTE ILICITO, POR LO QUE SOLICITA QUE SE TOMEN LAS MEDIDAS LEGALES EN EL CASO. ES TODO CUANTO TIENE POR DENUNCIAR</Relato>
+    <aportaPruebas>No</aportaPruebas>
+    <aportaPruebaDescripcion />
+    <medidasSolicVictima />
+    <juzgadoFamiliaInterviniente />
+    <asesorMenoresInterviniente />
+    <antecedentes />
+    <conSecuestro>No</conSecuestro>
+    <conSecuestroDescripcion />
+    <conDetenidos>No</conDetenidos>
+    <conDetenidosDescripcion />
+    <informacionAdicional />
+    <DepartamentoId>23</DepartamentoId>
+    <DepartamentoNombre>SAN MARTIN            </DepartamentoNombre>
+    <LocalidadId>23</LocalidadId>
+    <LocalidadNombre>TARTAGAL</LocalidadNombre>
+    <BarrioId>0</BarrioId>
+    <CalleId>0</CalleId>
+    <CalleNombre>Seleccione una Calle</CalleNombre>
+    <LugarNro>Block/Torre:_Nro:_Mza/Lote:_Casa/Medidor:_Piso/Dpto:</LugarNro>
+    <testigoActo1>MARCELO MORALES</testigoActo1>
+    <testigoActo2>BORJA CARLOS</testigoActo2>
+    <latitud>-22.523750305175781</latitud>
+    <longitud>-63.806678771972656</longitud>
+    <esViolenciaFamiliar>false</esViolenciaFamiliar>
+    <esViolenciaDeGenero>false</esViolenciaDeGenero>
+    <alertadosPorSistemaVideoVigilancia>false</alertadosPorSistemaVideoVigilancia>
+    <FiscaliaIntervinienteId>932</FiscaliaIntervinienteId>
+    <FiscaliaIntervinienteNombre>FISCALIA PENAL Nº 1 - TARTAGAL</FiscaliaIntervinienteNombre>
+  </Table>
+  <Table1 xmlns="Delitos">
+    <delitoId>51</delitoId>
+    <nombre>ROBO CALIFICADO</nombre>
+    <tentativo>false</tentativo>
+    <denunciaid>1700396</denunciaid>
+  </Table1>
+  <Table2 xmlns="Partes">
+    <parteId>3033425</parteId>
+    <rolId>1</rolId>
+    <rolNombre>Denunciante/Informante</rolNombre>
+    <dni_tipo>DNI</dni_tipo>
+    <dni_nro>38507165</dni_nro>
+    <sexo>M</sexo>
+    <apellido>ALEGRE</apellido>
+    <nombre>LEONARDO ADRIAN </nombre>
+    <domicilio>GUEMES  Y 25 DE MAYO Bª CENTRO</domicilio>
+    <profesion>-</profesion>
+    <domicilioLaboral>-</domicilioLaboral>
+    <email>-</email>
+    <FchNacimiento>1994-06-06T00:00:00-03:00</FchNacimiento>
+    <LugarNacimiento>-</LugarNacimiento>
+    <ciudad />
+    <nacionalidad />
+    <telefono>-</telefono>
+    <edad>24</edad>
+    <autorizaEmail>false</autorizaEmail>
+    <exibe>false</exibe>
+    <nombrePadres>-</nombrePadres>
+    <alias />
+    <EstadoCivilId>3</EstadoCivilId>
+    <EstadoCivilNombre>Concubino/a</EstadoCivilNombre>
+    <observaciones />
+    <Extranjero>N</Extranjero>
+    <PaisId>5</PaisId>
+    <Pais>Argentina</Pais>
+    <ProvinciaId>1834</ProvinciaId>
+    <DepartamentoId>23</DepartamentoId>
+    <LocalidadId>23</LocalidadId>
+    <denunciaId>1700396</denunciaId>
+  </Table2>
+  <Table2 xmlns="Partes">
+    <parteId>3033475</parteId>
+    <rolId>2</rolId>
+    <rolNombre>Denunciado/Sospechoso</rolNombre>
+    <dni_tipo>DNI</dni_tipo>
+    <dni_nro>99999999</dni_nro>
+    <sexo />
+    <apellido>NN</apellido>
+    <nombre>NN</nombre>
+    <domicilio>-</domicilio>
+    <profesion />
+    <domicilioLaboral />
+    <email>-</email>
+    <LugarNacimiento />
+    <ciudad />
+    <nacionalidad />
+    <telefono />
+    <edad>0</edad>
+    <autorizaEmail>false</autorizaEmail>
+    <exibe>false</exibe>
+    <nombrePadres />
+    <alias />
+    <EstadoCivilId>0</EstadoCivilId>
+    <observaciones />
+    <denunciaId>1700396</denunciaId>
+  </Table2>
+  <Table5 xmlns="Via_Publica">
+    <viaPublica>true</viaPublica>
+    <tipoLugarId>10</tipoLugarId>
+    <TipoLugarNombre>CALLE</TipoLugarNombre>
+    <modalidadId>25</modalidadId>
+    <ModalidadNombre>Descuidista</ModalidadNombre>
+    <denunciaId>1700396</denunciaId>
+  </Table5>
+  <Table6 xmlns="Objetos_Sustraidos">
+    <objetoSustraidoId>25</objetoSustraidoId>
+    <objetoSustraidoNombre>Motos</objetoSustraidoNombre>
+    <campo1Nombre>Marca</campo1Nombre>
+    <campo1Valor />
+    <campo2Nombre>Modelo</campo2Nombre>
+    <campo2Valor />
+    <campo3Nombre>Dominio</campo3Nombre>
+    <campo3Valor />
+    <campo4Nombre>Nro. Chasis</campo4Nombre>
+    <campo4Valor />
+    <campo5Nombre>Nro. Motor</campo5Nombre>
+    <campo5Valor />
+    <campo6Nombre>Otra característica</campo6Nombre>
+    <campo6Valor />
+    <denunciaId>1700396</denunciaId>
+  </Table6>
+  <Table8 xmlns="Objetos_Utilizados">
+    <objetoUtilizadoId>34</objetoUtilizadoId>
+    <objetoUtilizadoNombre>Otro</objetoUtilizadoNombre>
+    <campo1Nombre>Características</campo1Nombre>
+    <campo1Valor>-</campo1Valor>
+    <campo2Nombre />
+    <campo2Valor />
+    <campo3Nombre />
+    <campo3Valor />
+    <campo4Nombre />
+    <campo4Valor />
+    <campo5Nombre />
+    <campo5Valor />
+    <campo6Nombre />
+    <campo6Valor />
+    <denunciaId>1700396</denunciaId>
+  </Table8>
+  <Table9>
+    <ampliacionNro>1</ampliacionNro>
+    <fchRegistro>2020-10-01T22:23:22.653-03:00</fchRegistro>
+    <contenido>amplia la presente manifestando que en el mes de noviembre del año 2019 un personal policial de apellido solares de la motorizada en control su motocicleta en cercanías de yacui que por ese motivo la llevaron a la comisaria de aguaray y la retiro , pero que en la fecha a horas 20.30 hs aproximadamente el mimso circulaba en la motocicleta y pasando por un control de avenida Packham se encontraban efectivos policiales realizando control de automóvil   que el personal al solicitarlo la documentación al dicente , y posterior al consultar con el unac manifiesta que el policía le dijo que esta registrada como robada por tal motivo realizaron el traslado del rodado a cria 42. que ahora se encuentra alojada en esa preventora y solicita poder recuperarla , que cuenta con todos los papes. es todo en cuanto desea denunciar firmando al pie de la misma previa lectura y ratificaion de su contenido.</contenido>
+    <TestigoActo1>HECTOR FLORES </TestigoActo1>
+    <TestigoActo2>LISANDRO COLMAN </TestigoActo2>
+    <denunciaId>1700396</denunciaId>
+  </Table9>
+</NewDataSet>
